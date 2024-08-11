@@ -1,50 +1,81 @@
-# React + TypeScript + Vite
+# Customer Details Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a Customer Details Portal built with Vite and React. It provides a responsive interface for viewing customer details and allows users to interact with customer data efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Responsive Design:** The application adapts to different screen sizes, providing an optimal user experience on both desktop and mobile devices.
+- **Customer List:** Displays a list of customers with their basic details, allowing users to select and view individual customer information.
+- **Customer Details:** When a customer is selected, detailed information is displayed, including their title, address, and additional data.
+- **Burger Menu for Mobile:** A toggle button allows users to switch between the customer list and customer details view on mobile devices.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+Before you begin, ensure you have met the following requirements:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
+- A package manager like npm or yarn.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Getting Started
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Follow these steps to set up and run the project:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clone the repository**
+
+   Open your terminal and run the following command to clone the repository:
+
+   ```bash
+   git clone https://github.com/AshishBansal2101/customer-portal.git
+   ```
+
+2. **Navigate to the project directory**
+
+   ```bash
+   cd repo-name
+   ```
+
+3. **Install dependencies**
+
+   Use npm or yarn to install the required packages:
+
+   ```bash
+   npm install
+   ```
+
+   or
+
+   ```bash
+   yarn install
+   ```
+
+4. **Run the development server**
+
+   After the dependencies are installed, start the development server with the following command:
+
+   ```bash
+   npm run dev
+   ```
+
+   or
+
+   ```bash
+   yarn dev
+   ```
+
+   This will start the application
+
+## Responsiveness
+
+The application is designed to be responsive, ensuring a seamless experience on various devices. The layout adjusts based on screen size using CSS media queries, and a burger menu is implemented for mobile view to toggle between the customer list and details.
+
+## Contributing
+
+If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
+
+## Contact
+
+For questions or feedback, feel free to reach out via [bansalashish2101@gmail.com](mailto:bansalashish2101@gmail.com).
+
+---

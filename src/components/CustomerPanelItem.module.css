@@ -1,0 +1,52 @@
+.item {
+  margin-bottom: 5px;
+  background-color: white;
+  padding: 30px;
+  color: rgb(76, 79, 83);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  color: rgb(70, 73, 77);
+  font-weight: 600;
+}
+
+.detail {
+  color: rgb(137, 137, 137);
+  font-size: 0.875rem;
+}
+
+.selected {
+  background-color: rgb(238, 238, 238);
+  border-right: 2px solid rgb(88, 91, 95);
+}
+
+@media (max-width: 768px) {
+  .item {
+    padding: 20px;
+  }
+
+  .name {
+    font-size: 1.1rem;
+  }
+
+  .detail {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .item {
+    padding: 15px;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+
+  .detail {
+    font-size: 0.75rem;
+  }
+}

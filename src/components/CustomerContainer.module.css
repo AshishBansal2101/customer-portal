@@ -1,0 +1,37 @@
+.mobileMenu {
+  display: none;
+}
+
+.desktopView {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .mobileMenu {
+    display: block;
+    margin: 10px;
+  }
+
+  .mobileView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .desktopView {
+    display: none;
+  }
+}
+
+.toggleButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

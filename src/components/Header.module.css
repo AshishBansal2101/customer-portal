@@ -1,0 +1,27 @@
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  border-bottom: 1px solid rgb(232, 232, 232);
+  background-color: white;
+  padding: 0 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.5rem;
+  color: rgb(70, 73, 77);
+}
+
+@media (max-width: 768px) {
+  .heading {
+    height: 60px;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    height: 50px;
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,28 @@
+.listItems {
+  width: 25%;
+  height: 120vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.listItems::-webkit-scrollbar {
+  display: none;
+}
+
+.listItems {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (max-width: 768px) {
+  .listItems {
+    width: 80%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .listItems {
+    width: 100%;
+  }
+}
