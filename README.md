@@ -10,6 +10,9 @@ This project is a Customer Details Portal built with Vite and React. It provides
 - **Customer List:** Displays a list of customers with their basic details, allowing users to select and view individual customer information.
 - **Customer Details:** When a customer is selected, detailed information is displayed, including their title, address, and additional data.
 - **Burger Menu for Mobile:** A toggle button allows users to switch between the customer list and customer details view on mobile devices.
+- **Dynamic Data Fetching:** The application fetches the customer list from a public API, ensuring that the data is always up-to-date.
+- **Infinite Scroll:** New customer data is fetched automatically when the user scrolls to the end of the list, providing a seamless experience without page refreshes.
+- **Image Rotation:** The application fetches images from an API that change every 10 seconds, enhancing the visual experience.
 
 ## Prerequisites
 
